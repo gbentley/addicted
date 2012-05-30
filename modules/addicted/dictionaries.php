@@ -21,7 +21,6 @@
 	// http://www.gnu.org/copyleft/gpl.html.
 	//
 	
-	define( "MODULE_INI_FILE", "module.ini" );
 	include("lib.php");
 	
 	// main vars
@@ -32,7 +31,7 @@
 	$feedback 		= "";
 	
 	// main players
-	$inifile = eZINI::instance( MODULE_INI_FILE,"extension/addicted/settings" );
+	$inifile = eZINI::instance( "addicted.ini" );
 	
 
 	// read ini

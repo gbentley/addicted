@@ -60,7 +60,7 @@
 			}
 			return $dictionaries;
 		} else {
-			eZDebug::writeDebug( "Number of files and locales in module.ini do not match", 'Addicted' );
+			eZDebug::writeDebug( "Number of files and locales in addicted.ini do not match", 'Addicted' );
 			return false;
 		}
 	}	

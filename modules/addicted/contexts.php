@@ -21,7 +21,6 @@
 	// http://www.gnu.org/copyleft/gpl.html.
 	//
 	
-	define( "MODULE_INI_FILE", "module.ini" );
 	include("lib.php");
 	include_once( "lib/ezutils/classes/ezhttptool.php" );
 	include_once( 'extension/addicted/classes/XPath.class.php' );
@@ -44,7 +43,7 @@
 	$http		= eZHTTPTool::instance();
 	$xPath 		= new XPath();
 	$xPath->setXmlOption(XML_OPTION_SKIP_WHITE, 0);
-	$inifile = eZINI::instance( MODULE_INI_FILE,"extension/addicted/settings" );
+	$inifile = eZINI::instance( "addicted.ini" );
 	
 	// read ini
 	$dictionaries = read_dictionaries($inifile);
