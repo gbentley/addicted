@@ -22,9 +22,6 @@
 	//
 	
 	include("lib.php");
-	include_once( "lib/ezutils/classes/ezhttptool.php" );
-	include_once( 'extension/addicted/classes/XPath.class.php' );
-	
 
 	// main vars
 	$module 		= $Params['Module'];
@@ -204,7 +201,7 @@
 	);
 	
 	include_once( 'kernel/common/template.php' );
-	$tpl = templateInit();
+	$tpl = eZTemplate::factory();
 	$tpl->setVariable( 'params', $viewparams);
 	
 	$Result = array();

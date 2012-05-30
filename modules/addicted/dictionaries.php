@@ -48,7 +48,7 @@
 	);
 	
 	include_once( 'kernel/common/template.php' );
-	$tpl = templateInit();
+	$tpl = eZTemplate::factory();
 	$tpl->setVariable( 'params', $viewparams);
 	
 	$Result = array();

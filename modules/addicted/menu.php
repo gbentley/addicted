@@ -23,7 +23,7 @@
 
 
 //include_once( 'kernel/common/template.php' );
-//$tpl = templateInit();
+//$tpl = eZTemplate::factory();
 //$tpl->setVariable( 'view_parameters', array( 'test' => true ) );
 
 
