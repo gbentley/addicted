@@ -1,0 +1,7 @@
+
+AdDictEd 2.0
+-----
+ - added alldicts* suite (in extension/addicted/bin/shell)
+ - fixed extension for ezp4.0/php5
+ - added xslt goodies (docs/xslt)
+ - first version pike@labforculture.org

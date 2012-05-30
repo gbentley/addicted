@@ -1,0 +1,53 @@
+﻿==============
+ALLDICTS SUITE
+==============
+
+Aren't you getting tired of managing dicts 
+in 10 languages in 10 extensions ? Aren't
+you worn out by managing translations on
+a live site, while the stuff on a dev server
+is getting out of sync ? Isn't it a hell of a job
+to package all these changes up and send it 
+out to 10 translators ?
+
+So this suite is for you. You should read
+and tweek the central config file,
+alldicts.cfg. After that, you can run any
+of these scripts. On Linux or Mac, that is.
+
+alldicts.sh
+	runs all the scripts below verbose, 
+	with prompts in between. can't harm,
+	you can say 'no' anywhere.
+
+alldicts-download.sh
+	downloads all dictionaries in all languages
+	in share/translations and extensions 
+	from a remote server using scp, if needed.
+
+alldicts-ezlupdate.sh
+	runs ezlupdate on all dicts in all languages
+	on all extensions and a couple (or all) designs
+
+alldicts-autofill.sh
+alldicts-autofill.xslt
+	together, fill out empty translations with
+	the value of the comment, for one specified
+	locale. very obscure. optional.
+	
+alldicts-report.sh
+	writes a report for every locale 
+	
+alldicts-package.sh
+	copies the dict files from all over the 
+	place into a single dir, for you to zip
+	and send of for translation.
+	
+alldicts.README.txt
+	DOH - You're reading it.
+
+Have fun,
+*-pike
+
+--------------------
+200906*pike@labforculture.org

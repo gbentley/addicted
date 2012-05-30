@@ -1,0 +1,23 @@
+INSTALL
+=======
+
+- note: your phpserver needs XSL support.
+- note: this module links the PHPXPath PHP library (http://sourceforge.net/projects/phpxpath/)
+- note: make sure your translation (.ts) files are writable for the webserver 
+        but not under svn control
+
+- Copy the addicted directory in your eZ publish extension directory 
+- Go to admin / setup / extension, and activate the extension
+- Please clear cache ...
+- Go to settings/module.ini.append.php and enter the paths to your dict files
+- Go to http://youradminurl/addicted/dictionaries
+- Smile
+
+This software is in beta. Make backups of important files
+yourself. I am not responsible for anything :-)
+
+Have fun
+*-pike
+
+
+
